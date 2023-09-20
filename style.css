@@ -1,5 +1,5 @@
 html{
-
+    background-color: aliceblue;
 }
 body{
     width: 960px;
@@ -42,6 +42,6 @@ footer{
     clear:both;
 }
 .pd{
-    padding: 20px;
+    padding: 20px 20px;
 }
 
