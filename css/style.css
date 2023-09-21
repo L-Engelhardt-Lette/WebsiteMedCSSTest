@@ -5,8 +5,13 @@ html{
 body{
     margin: auto;
 }
+
+/*
+    HEADER
+*/
 header{
     background-color: #333;
+display: flexbox;
 
 }
 header h1{
@@ -26,22 +31,22 @@ header li {
     display: inline-block;
     border-radius: 5px;
 }
-  
 header li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
+/*
+    END
+*/
 
-header li a:hover {
-    background-color: #111;
-}
-
-
+/*
+    SIDE NAV
+*/
 #side-nav{
     background-color: aqua;
-    width: 21.65%;
+    width: 8em;
     float: left;
 }
 #side-nav ul{
@@ -58,9 +63,17 @@ header li a:hover {
     text-decoration: none;
     display: block;
 }
+/*
+    END
+*/
+
+/*
+    ARTICLE
+*/
 article{
-    background-color: blueviolet;
-    width: 70%;
+    background-color: #4b4b4b;
+    color: whitesmoke;
+    width: 80%;
     display: inline-block;
 
 }
