@@ -2,34 +2,62 @@ html{
     background-color: aliceblue;
 }
 body{
-    width: 960px;
     margin: auto;
 }
 header{
-    background-color: crimson;
+    background-color: #333;
 
 }
-nav{
+header h1{
+    color: whitesmoke;
+}
+.header-nav{
+    clear: both;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}  
+header li {
+    display: inline-block;
+    width: 5em;
+    border-radius: 5px;
+}
+  
+header li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header li a:hover {
+    background-color: #111;
+}
+
+
+#side-nav{
     background-color: aqua;
     width: 21.65%;
     float: left;
 }
-ul{
+#side-nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 60px;
 
 } 
-  li{
+#side-nav li{
     padding: 0.5em;
-  }
-  
-  li a {
+} 
+#side-nav li a {
     text-decoration: none;
     display: block;
-  }
-
+}
 article{
     background-color: blueviolet;
     width: 70%;
@@ -37,7 +65,8 @@ article{
 
 }
 footer{
-    background-color: chartreuse;
+    background-color: #333;
+    color: whitesmoke;
     text-align: center;
     clear:both;
 }
