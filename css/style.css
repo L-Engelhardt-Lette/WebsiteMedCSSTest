@@ -1,5 +1,6 @@
 html{
     background-color: aliceblue;
+    font-family: 'Oswald', sans-serif;
 }
 body{
     margin: auto;
@@ -23,7 +24,6 @@ header ul {
 }  
 header li {
     display: inline-block;
-    width: 5em;
     border-radius: 5px;
 }
   
