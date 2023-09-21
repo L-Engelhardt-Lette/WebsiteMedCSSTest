@@ -11,8 +11,11 @@ body{
 */
 header{
     background-color: #333;
-display: flexbox;
-
+}
+.header-logo{
+    text-decoration: none;
+    color: whitesmoke;
+    size: 3em;
 }
 header h1{
     color: whitesmoke;
@@ -37,6 +40,18 @@ header li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+.content {
+    padding: 16px;
+}
+.sticky {
+    position: fixed;
+    background-color: rgb(51, 51, 51);
+    top: 0;
+    width: 100%;
+}
+.sticky + .content {
+    padding-top: 102px;
+}
 /*
     END
 */
@@ -44,7 +59,7 @@ header li a {
 /*
     SIDE NAV
 */
-#side-nav{
+.side-nav{
     background-color: aqua;
     width: 8em;
     float: left;

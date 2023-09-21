@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.3em;
+}
+
+.address-book {
+    height: 10em;
+    width: 40%;
+    margin: auto;
+    border: solid black 2px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    white-space: nowrap;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+dt {
+    scroll-snap-align: start;
+    background-color: beige;
+    scroll-padding-top: 30px;
+    position: sticky;
+    top: 0;
+}
+
+
